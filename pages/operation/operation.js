@@ -72,7 +72,7 @@ Page({
           icon: '',
           duration: 2000
         });
-        if (that.data.areaId == undefined) {
+        if (that.data.areaId == undefined) {//表示添加成功跳转到列表页面
           wx.redirectTo({
             url: '../list/list',
           })
