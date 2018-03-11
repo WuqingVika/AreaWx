@@ -56,7 +56,7 @@ Page({
     }
     wx.request({
       url: url,
-      data: JSON.stringify(formData),
+      data: JSON.stringify(formData),//将 JavaScript 值转换为 JSON 字符串。
       method: 'POST',
       header: {
         'Content-Type': 'application/json'
