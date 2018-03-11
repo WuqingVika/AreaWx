@@ -49,6 +49,11 @@ Page({
 
     })
   },
+  addArea:function(){
+    wx.navigateTo({
+      url: '../operation/operation'
+    })
+  },
   onShow: function () {
     var that = this;
     wx.request({
